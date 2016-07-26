@@ -1,10 +1,11 @@
 {
   "name": "panpipe",
   "version": "0.1.0",
-  "description": "",
+  "description": "Simply panpipes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build --win --x64"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   },
   "dependencies": {
     "electron-gh-releases": "^2.0.4"
+  },
+  "build": {
+    "appId": "pan.pipe",
+    "app-category-type": "pipes"
   }
 }
